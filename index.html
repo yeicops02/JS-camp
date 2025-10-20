@@ -7,11 +7,16 @@
     <title>DevJobs</title>
     <link rel="stylesheet" href="./style/style.css">
     <script src="./script/app.js" defer></script>
-    
+
 </head>
 
 <body>
     <header class="header">
+        <div class="header__option">
+            <img src="img/bars-solid-full.svg" alt="">
+        </div>
+
+
         <div class="header__block">
             <svg width="48" height="48" fill="none" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
                 <path clip-rule="evenodd"
@@ -21,7 +26,8 @@
             <h2 class="header__title">DevJobs</h2>
         </div>
 
-        <nav class="header__navegation">
+        <nav class="header__navegation ">
+
             <ul class="header__navegation-links">
                 <li><a href="search_result.html">Buscar</a></li>
                 <li><a href="offer_details.html">Empleos</a></li>
@@ -29,6 +35,10 @@
                 <li><a href="#">Salarios</a></li>
             </ul>
         </nav>
+
+        <div class="header__menu">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-category-2"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M14 4h6v6h-6z" /><path d="M4 14h6v6h-6z" /><path d="M17 17m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" /><path d="M7 7m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" /></svg>
+        </div>
 
         <div class="header__container-button">
             <button class="header__button" type="button">Publicar un empleo</button>
@@ -52,7 +62,7 @@
                             <path d="M10 10m-7 0a7 7 0 1 0 14 0a7 7 0 1 0 -14 0" />
                             <path d="M21 21l-6 -6" />
                         </svg>
-    
+
                         <input class="hero__widget" required type="search"
                             placeholder="Buscar empleos por titulo, habilidad o empresa">
                     </div>
@@ -65,7 +75,8 @@
         <section class="features">
             <header>
                 <h2 class="features__title">¿Por qué DevJobs?</h2>
-                <p class="features__text">DevJobs es la principal bolsa de trabajo para desarrolladores. Conectamos a <br>
+                <p class="features__text">DevJobs es la principal bolsa de trabajo para desarrolladores. Conectamos a
+                    <br>
                     los desarrolladores con las mejores empresas del mundo.</p>
             </header>
 
@@ -114,7 +125,7 @@
 
     </main>
 
-    
+
 
     <footer class="footer">
         <small>&copy; 2025 DevJobs. Todos los derechos reservados.</small>
